@@ -1,0 +1,8 @@
+query GetTweets {
+  app_user {
+    username
+    tweets {
+      content
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "hastweet",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "generate:hooks": "graphql-codegen --config codegen.yml"
+  },
+  "dependencies": {
+    "@graphql-codegen/cli": "^2.4.0",
+    "@graphql-codegen/typescript-react-query": "^3.5.0",
+    "graphql": "^16.3.0",
+    "next": "12.0.10",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-query": "^3.34.12"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.14",
+    "@types/react": "17.0.38",
+    "eslint": "8.8.0",
+    "eslint-config-next": "12.0.10",
+    "typescript": "4.5.5",
+    "@graphql-codegen/typescript-operations": "2.2.3",
+    "@graphql-codegen/typescript": "2.4.2",
+    "@graphql-codegen/introspection": "2.1.1",
+    "@graphql-codegen/cli": "2.4.0"
+  }
+}
